@@ -1,10 +1,14 @@
 <h1>Stupid Coaching</h1>
 
 <% if @user_question.present? %>
-  <p><%= @user_question %></p>
-  <p>-You</p>
-  <p><%= @answer %></p>
-  <p>-Your coach</p>
+  <div class="question-box">
+    <p><%= @user_question %></p>
+    <p>-You</p>
+  </div>
+  <div class="coach-box">
+    <p><%= @answer %></p>
+    <p>-Your coach</p>
+  </div>
 <% end %>
 
 

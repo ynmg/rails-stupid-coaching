@@ -8,3 +8,18 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+.question-box {
+  padding:10px;
+  background-color: rgb(247, 246, 245);
+  width:500px;
+  border:1px solid black;
+  margin: 10px;
+}
+
+.coach-box {
+  padding: 10px;
+  background-color: rgb(180, 177, 112);
+  width:500px;
+  border:1px solid black;
+  margin: 10px;
+}
